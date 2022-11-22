@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2.2.7/dist/tailwind.min.css" rel="stylesheet">
+    <link href="mycss.css" rel="stylesheet">
+    <title>Exams Page</title>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <!-- <svg xmlns="graduation-cap-solid.svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg> -->
+            <img class="myicon" src="graduation-cap-solid.jpg">
+            <span class="ml-3 text-xl">Exam Buddy</span>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a class="text-lg rounded-full py-2 px-3 no-underline  font-bold mr-5 hover:bg-indigo-600 hover:text-white tracking-wider border-indigo-600 border-2 text-indigo-600" href="index.html">Home</a>
+            <a class="text-lg rounded-full py-2 px-3 no-underline  font-bold mr-5 hover:bg-indigo-600 hover:text-white tracking-wider border-indigo-600 border-2 text-indigo-600" href="exams.html">Exams</a>
+            <a class="text-lg rounded-full py-2 px-3 no-underline  font-bold mr-5 hover:bg-indigo-600 hover:text-white tracking-wider border-indigo-600 border-2 text-indigo-600" href="#">Prepare</a>
+            <a class="text-lg rounded-full py-2 px-3 no-underline  font-bold mr-5 hover:bg-indigo-600 hover:text-white tracking-wider border-indigo-600 border-2 text-indigo-600" href="about.html">About</a>
+          </nav>
+          <!-- <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Explore
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button> -->
+        </div>
+      </header>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap w-full mb-20">
+            <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Select Your Exam</h1>
+              <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+            </div>
+            <!-- <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> -->
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <a href="jee.html"><img class="h-fit rounded w-full object-cover object-center mb-6" src="jee1.jpg" alt="content"></a>
+                <!-- <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3> -->
+                <a href="jee.html"><h2 class="text-lg text-gray-900 font-medium title-font mb-4 hover:underline">Joint Enterance Examination(Mains)</h2></a>
+                <p class="leading-relaxed text-base">Joint Entrance Examination – Main (JEE-Main), formerly All India Engineering Entrance Examination (AIEEE), is an Indian standardised computer-based test for admission to various technical undergraduate programs in engineering, architecture, and planning across colleges in India. </p>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <a href="nda.html"><img class="h-2/3 rounded w-full object-cover object-center mb-6" src="NDA.JPG" alt="content"></a>
+                <!-- <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3> -->
+                <a href="nda.html"><h2 class="text-lg text-gray-900 font-medium title-font mb-4 hover:underline">National Defence Academy(NDA)</h2></a>
+                <p class="leading-relaxed text-base">The National Defence Academy (NDA) is the joint defence service training institute of the Indian Armed Forces, where cadets of the three services i.e. the Indian Army, the Indian Navy and the Indian Air Force train together before they go on to respective service academy for further pre-commission training.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <a href="neet.html"><img class="h-2/3 rounded w-full object-cover object-center mb-6 " src="NEET-logo.jpg" alt="content"></a>
+                <!-- <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3> -->
+                <a href="neet.html"><h2 class="text-lg text-gray-900 font-medium title-font mb-4 hover:underline">The National Eligibility cum Entrance Test(NEET) Undergraduate</h2></a>
+                <p class="leading-relaxed text-base">The National Eligibility cum Entrance Test (Undergraduate) or NEET (UG), formerly the All India Pre-Medical Test (AIPMT), is an all India pre-medical entrance test for students who wish to pursue undergraduate medical (MBBS), dental (BDS) and AYUSH (BAMS, BUMS, BHMS, etc.) courses in government and private institutions in India and also, for those intending to pursue primary medical qualification abroad.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg pt-0px">
+                <a href="cds.html"><img class="h-1/6 rounded w-full object-cover object-center mb-6 pt-0px" src="CDS.jpg" alt="content"></a>
+                <!-- <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3> -->
+                <a href="cds.html"><h2 class="text-lg text-gray-900 font-medium title-font mb-4 pt-0px hover:underline">Combined Defence Service(CDS)</h2></a>
+                <p class="leading-relaxed text-base pt-0.5px">The Combined Defence Services Examination is conducted by the Union Public Service Commission for recruitment of Commissioned Officers in the Indian Military Academy, Officers Training Academy, Indian Naval Academy and Indian Air Force Academy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
